@@ -19,7 +19,7 @@ GitOps is a set of best practices where the entire code delivery process is cont
 # The Key GitOps Principles
 
 - The entire system (infrastructure and applications) is described **declaratively**
-- The canonical desired system state is versioned in Git
+- The canonical desired system state is versioned in Git 
 - Approved changes are automated and applied to the system
 - Software agents ensure correctness and alert on divergence
 
@@ -58,4 +58,4 @@ More concisely:
 
 
 
-16/32
+20/32
