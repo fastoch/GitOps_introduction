@@ -9,11 +9,11 @@ In short, the idea is to manage our K8s clusters through code, using a Git repo 
 
 In a K8s cluster, there are several types of resources (all defined as code):
 - the infrastructure: monitoring tooling, ingress controller, database controller, etc.
-- the application definition: a set of containerized workloads grouped into logical units like Pods, Deployments, and Services
+- the application definitions: a set of containerized workloads grouped into logical units like Pods, Deployments, and Services
 
 GitOps is a set of best practices where the entire code delivery process is controlled via Git, including: 
 - infrastructure as code,
-- application definition as code,
+- application definitions as code,
 - automation to complete updates and rollbacks (Renovate).
 
 # The Key GitOps Principles
@@ -56,6 +56,10 @@ More concisely:
 
 # Differences between Flux and Argo CD
 
+Flux is a great choice because:
+- it's easier to set up,
+- it's less overwhelming for beginners,
+- it forces you to focus on the **CLI**,
+- it forces you to learn **Kustomize**, which is a valuable skill as a **Kubernetes engineer**
 
-
-20/32
+You can always replace Flux with Argo CD later on in your career.
